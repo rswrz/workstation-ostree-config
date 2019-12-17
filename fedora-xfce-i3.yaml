@@ -1,0 +1,11 @@
+include: xfce-i3-desktop-pkgs.yaml
+ref: fedora/31/${basearch}/xfce-i3
+rojig:
+  name: fedora-xfce-i3
+  summary: "Fedora XFCE with i3 WM"
+  license: MIT
+packages:
+  # Portals for Flatpak
+  - xdg-desktop-portal-gtk
+repos:
+  - fedora-31

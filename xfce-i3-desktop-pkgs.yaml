@@ -1,0 +1,121 @@
+include: fedora-common-ostree.yaml
+packages:
+  - NetworkManager-fortisslvpn-gnome
+  - NetworkManager-iodine-gnome
+  - NetworkManager-l2tp-gnome
+  - NetworkManager-libreswan-gnome
+  - NetworkManager-openconnect-gnome
+  - NetworkManager-openvpn-gnome
+  - NetworkManager-pptp-gnome
+  - NetworkManager-ssh-gnome
+  - NetworkManager-sstp-gnome
+  - NetworkManager-strongswan-gnome
+  - NetworkManager-vpnc-gnome
+  - Thunar
+  - adwaita-gtk2-theme
+  - adwaita-icon-theme
+#  - albatross-gtk2-theme
+#  - albatross-gtk3-theme
+#  - albatross-xfwm4-theme
+#  - arc-theme
+  - blueberry
+#  - bluebird-gtk2-theme
+#  - bluebird-gtk3-theme
+#  - bluebird-xfwm4-theme
+#  - desktop-backgrounds-compat
+#  - fedora-icon-theme
+  - gnome-keyring-pam
+#  - greybird-gtk2-theme
+#  - greybird-gtk3-theme
+#  - greybird-xfce4-notifyd-theme
+#  - greybird-xfwm4-theme
+#  - gtk-xfce-engine
+  - gvfs
+  - gvfs-archive
+  - gvfs-mtp
+#  - initial-setup-gui
+  - lightdm-gtk
+  - network-manager-applet
+  - nm-connection-editor
+  - thunar-archive-plugin
+  - thunar-media-tags-plugin
+  - thunar-volman
+#  - xdg-user-dirs-gtk
+#  - xfce4-about
+  - xfce4-appfinder
+  - xfce4-datetime-plugin
+  - xfce4-panel
+  - xfce4-places-plugin
+  - xfce4-power-manager
+  - xfce4-pulseaudio-plugin
+  - xfce4-screenshooter-plugin
+  - xfce4-session
+  - xfce4-settings
+#  - xfce4-taskmanager
+  - xfce4-terminal
+  - xfconf
+  - xfdesktop
+  - xfwm4
+#  - xfwm4-theme-nodoka
+#  - xfwm4-themes
+  - xscreensaver-base
+
+### My Apps
+  - i3
+  - bolt
+#  - gstreamer1-plugin-openh264
+#  - mozilla-openh264
+#  - keepassxc
+  - vim
+#  - gimp
+#  - vagrant
+  - zsh
+  - wmctrl
+  - simple-scan
+#  - bind-utils
+#  - remmina
+#  - whois
+#  - ansible
+#  - telnet
+#  - fontawesome-fonts
+#  - hunspell-de
+#  - lsof
+#  - freeipa-client
+#  - chromium
+#  - htop
+#  - openldap-clients
+#  - '@Printing Support'
+#  - '@Input Methods'
+#  - '@Multimedia'
+#  - powertop
+  - ranger
+
+### Group: Virtualization
+  # Mandatory Packages:
+  - virt-install
+  # Default Packages:
+  - libvirt-daemon-config-network
+  - libvirt-daemon-kvm
+  - qemu-kvm
+  - virt-manager
+  - virt-viewer
+  # Optional Packages:
+  - guestfs-browser
+  - libguestfs-tools
+  - python3-libguestfs
+  - virt-top
+
+### VirtualBox
+#  - binutils
+#  - gcc
+#  - make
+#  - patch
+#  - libgomp
+#  - glibc-headers
+#  - glibc-devel
+#  - kernel-headers
+#  - kernel-devel
+#  - dkms
+#  - qt5-qtx11extras
+#  - libxkbcommon
+#  - VirtualBox-6.0
