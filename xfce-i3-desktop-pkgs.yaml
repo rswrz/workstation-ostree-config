@@ -58,15 +58,16 @@ packages:
   - xfwm4
 #  - xfwm4-theme-nodoka
 #  - xfwm4-themes
-  - xscreensaver-base
+#  - xscreensaver-base
 
 ### My Apps
   - i3
+  - i3lock
   - bolt
 #  - gstreamer1-plugin-openh264
 #  - mozilla-openh264
 #  - keepassxc
-  - vim
+#  - vim
 #  - gimp
 #  - vagrant
   - zsh
@@ -88,7 +89,7 @@ packages:
 #  - '@Input Methods'
 #  - '@Multimedia'
 #  - powertop
-  - ranger
+#  - ranger
 
 ### Group: Virtualization
   # Mandatory Packages:

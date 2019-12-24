@@ -44,10 +44,10 @@ packages:
   - dnsmasq
   - e2fsprogs
   - ethtool
-  - fedora-bookmarks
+#  - fedora-bookmarks
   - fedora-release-workstation
 #  - fedora-user-agent-chrome
-  - fedora-workstation-backgrounds
+#  - fedora-workstation-backgrounds
   - file
   - filesystem
   - firefox
@@ -56,7 +56,7 @@ packages:
   - foomatic-db-ppds
   - fpaste
   - fros-gnome
-  - gamemode
+#  - gamemode
   - glibc
   - glibc-all-langpacks
   - glx-utils
@@ -187,7 +187,7 @@ packages:
   - sil-padauk-fonts
   - smc-meera-fonts
   - sos
-  - spice-vdagent
+#  - spice-vdagent
   - sssd
   - sssd-common
   - sssd-kcm
@@ -206,7 +206,7 @@ packages:
   - util-linux
   - vconfig
 #  - vim-minimal
-  - wget
+#  - wget
   - which
   - wireless-tools
   - words
