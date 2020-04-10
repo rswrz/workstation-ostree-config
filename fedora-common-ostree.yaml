@@ -57,6 +57,7 @@ packages-aarch64:
   - shim
 packages-armhfp:
   - extlinux-bootloader
+  - xorg-x11-drv-armada
 packages-ppc64:
   - grub2
   - ostree-grub2
@@ -78,3 +79,7 @@ packages-x86_64:
 #  - xorg-x11-drv-openchrome
   - xorg-x11-drv-vesa
 #  - xorg-x11-drv-vmware
+
+# Make sure the following are not pulled in when Recommended by other packages
+exclude-packages:
+  - PackageKit
