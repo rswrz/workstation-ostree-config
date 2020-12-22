@@ -1,3 +1,5 @@
+Master branch at https://pagure.io/workstation-ostree-config.git 
+
 For some background, see:
 
  - https://fedoraproject.org/wiki/Workstation/AtomicWorkstation

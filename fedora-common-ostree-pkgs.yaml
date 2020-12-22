@@ -57,7 +57,7 @@ packages:
   - foomatic-db-ppds
   - fpaste
   - fros-gnome
-  - gamemode
+#  - gamemode
   - glibc
   - glibc-all-langpacks
   - glx-utils
@@ -132,7 +132,7 @@ packages:
   - man-pages
   - mdadm
   - mesa-dri-drivers
-  - mesa-vulkan-drivers
+#  - mesa-vulkan-drivers
   - mlocate
   - mpage
   - mtr
@@ -162,7 +162,7 @@ packages:
   - pulseaudio
   - pulseaudio-module-x11
   - pulseaudio-utils
-  - qemu-guest-agent
+#  - qemu-guest-agent
   - qt
   - qt-settings
   - qt-x11
@@ -186,7 +186,7 @@ packages:
   - sil-padauk-fonts
   - smc-meera-fonts
   - sos
-  - spice-vdagent
+#  - spice-vdagent
   - sssd
   - sssd-common
   - sssd-kcm
@@ -196,7 +196,7 @@ packages:
   - systemd
   - systemd-udev
   - tar
-  - thai-scalable-waree-fonts
+#  - thai-scalable-waree-fonts
   - time
   - tree
   - unzip
@@ -213,13 +213,13 @@ packages:
   - xorg-x11-drv-evdev
   - xorg-x11-drv-fbdev
   - xorg-x11-drv-libinput
-  - xorg-x11-drv-nouveau
-  - xorg-x11-drv-qxl
-  - xorg-x11-drv-wacom
+#  - xorg-x11-drv-nouveau
+#  - xorg-x11-drv-qxl
+#  - xorg-x11-drv-wacom
   - xorg-x11-server-Xorg
   - xorg-x11-utils
   - xorg-x11-xauth
   - xorg-x11-xinit
-  - zd1211-firmware
+#  - zd1211-firmware
   - zip
   - zram-generator-defaults
